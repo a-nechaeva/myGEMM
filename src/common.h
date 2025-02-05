@@ -24,7 +24,7 @@
 // =================================================================================================
 
 // Repeat all kernels multiple times to get an average timing result
-#define NUM_RUNS 4
+#define NUM_RUNS 1
 
 // Squared matrices are tested within a certain range (e.g. 1024x1024, 2048x2048, 4096x4096)
 #define MINSIZE (256)
