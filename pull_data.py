@@ -53,14 +53,14 @@ def benchmark_with(config: BuildConfig):
 
 if __name__ == '__main__':
     WORK_GROUP_SIZES = [
-        4, 8, 16
+        8, 16, 32
         #32, 16
     ]
 
     SELECTED_KERNELS = [
         #1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-        #3, 4, 5, 6, 7
-        1, 2
+        3, 4, 5, 6, 7
+        #1, 2
     ]
 
     ALL_CL_COMPILER_OPTIONS = [
