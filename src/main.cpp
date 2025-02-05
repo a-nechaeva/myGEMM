@@ -17,7 +17,7 @@
 // Common include
 #include "common.h"
 
-#define USE_CSV_OUT_FORMAT
+//#define USE_CSV_OUT_FORMAT
 #ifdef USE_CSV_OUT_FORMAT
 #include "settings.h"
 #endif
