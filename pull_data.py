@@ -1,9 +1,6 @@
 import itertools
 import subprocess
 import sys
-
-import matplotlib
-
 import apply_templates
 
 
@@ -56,18 +53,19 @@ def benchmark_with(config: BuildConfig):
 
 if __name__ == '__main__':
     WORK_GROUP_SIZES = [
-        #1, 4, 16, 32
-        32, 16
+        4, 8, 16
+        #32, 16
     ]
 
     SELECTED_KERNELS = [
         #1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-        9,
+        #3, 4, 5, 6, 7
+        1, 2
     ]
 
     ALL_CL_COMPILER_OPTIONS = [
         "-cl-std=CL2.0",
-        #"-cl-std=CL1.2"
+        "-cl-std=CL1.2"
     ]
 
     variables = [ALL_CL_COMPILER_OPTIONS, SELECTED_KERNELS, WORK_GROUP_SIZES]
