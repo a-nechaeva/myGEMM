@@ -5,11 +5,11 @@ This repo contains some files for YADRO 2025 Winter School.
 
 To build and run the program without CUDA, use the following command:
 
-python3 pull_data.py ENABLE_CUDA=0
+   `python3 pull_data.py ENABLE_CUDA=0`
 
 if you need to run on CUDA, then skip the last expression:
 
-python3 pull_data.py
+   `python3 pull_data.py`
 
 
 Exploring the performance of SGEMM in OpenCL on NVIDIA GPUs
